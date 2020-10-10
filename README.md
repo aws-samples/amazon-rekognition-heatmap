@@ -17,10 +17,10 @@ This demo runs the code using Amazon SageMaker. You can choose any IDE you like 
 
 # Customize your HeatMap
 You can customize your HeatMap by changing the parameters in the optional section at the beginning when open the Jupyter notebook.
-1.matrixhight: This parameter control the number of lines you will get on the HeatMap grid. The default number is 50.
-2.matrixwidth: This parameter control the number of columns you will get on the HeatMap grid. The default number is 50.
-3.DarkestColor: The HeatMap will provide gradient colors between the darkest color you set and the color white. The default color is Crimson Red (#990000)
-4.LabelType: This HeatMap layer was first created to detect human group. The default value for this parameter is "Person". You can change this to any other labels that Amazon Rekognition support such as cars, trees, etc. It can be used to detect the density of other objects as well.
+1. matrixhight: This parameter control the number of lines you will get on the HeatMap grid. The default number is 50.
+2. matrixwidth: This parameter control the number of columns you will get on the HeatMap grid. The default number is 50.
+3. DarkestColor: The HeatMap will provide gradient colors between the darkest color you set and the color white. The default color is Crimson Red (#990000)
+4. LabelType: This HeatMap layer was first created to detect human group. The default value for this parameter is "Person". You can change this to any other labels that Amazon Rekognition support such as cars, trees, etc. It can be used to detect the density of other objects as well.
 
 
 

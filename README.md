@@ -3,7 +3,7 @@ This project adds a heatmap layer on top of a picture based on Amazon Rekognitio
 
 Here is an example picture from Amazon Bring-Your-Kids-To-Work Day. We can add a HeatMap layer on top of it and see which game attracks more kids.
 
-<img src="https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kids_day.jpeg" width="500" height="400" />        <img src="https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kid_Day_Result.png" width="500" height="400" />
+<img src="https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kids_day.jpeg" width="450" height="400" />        <img src="https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kid_Day_Result.png" width="450" height="400" left="600"/>
 
 ![Kids Day](https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kids_day.jpeg | width = 100)![Kids Day Result](https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kid_Day_Result.png | width = 100)
 

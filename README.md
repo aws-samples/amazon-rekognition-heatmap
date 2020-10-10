@@ -19,7 +19,7 @@ This demo runs the code using Amazon SageMaker. You can choose any IDE you like 
 2. Add Rekognition access permission to SageMaker.  
   a. Click the instance you just created.       
   b. In the Permissions and encryption section, click the link under IAM role ARN. This will bring you to the IAM page.    
-  c. Click the *Attach ploicies* button. Find the AmazonRekognitionFullAccess policy and attach it.    
+  c. Click the *Attach policies* button. Find the AmazonRekognitionFullAccess policy and attach it.    
   d. Then go back to the SageMaker console page. Click *Open Jupyter* button.        
 3. Download the **HeatMap_Code.ipynb** file from here and upload it into your Jupyter notebook.
 4. Open the HeatMap_Code in the Jupyter notebook and change the required parameters (```bucketName``` and ```imageName```) at the beginning.  

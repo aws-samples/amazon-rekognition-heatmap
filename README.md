@@ -22,14 +22,14 @@ This demo runs the code using Amazon SageMaker. You can choose any IDE you like 
   c. Click the Attach ploicies button. Find the AmazonRekognitionFullAccess policy and attach it.    
   d. Then go back to the SageMaker console page.     
 3. Download the HeatMap_Code.ipynb file from here and upload it into your Jupyter notebook.
-4. Open the HeatMap_Code and change the required parameters (```bucketName``` and ```imageName```) at the beginning.  
+4. Open the HeatMap_Code in the Jupyter notebook and change the required parameters (```bucketName``` and ```imageName```) at the beginning.  
 5. Then you can run the code and see a HeatMap layer been added on your picture.  
 
 ## Customize your HeatMap
 You can customize your HeatMap by changing the parameters in the optional section at the beginning when open the Jupyter notebook.
 1. ```matrixhight```: This parameter control the number of lines you will get on the HeatMap grid. The default number is 20.
 2. ```matrixwidth```: This parameter control the number of columns you will get on the HeatMap grid. The default number is 30.
-3. ```DarkestColor```: The HeatMap will provide gradient colors between the darkest color you set and the color white. The default color is Crimson Red (#990000).You can find more color code [here](https://htmlcolorcodes.com/)
+3. ```DarkestColor```: The HeatMap will provide gradient colors between the darkest color you set and the color white. The default color is Crimson Red (#990000). You can find more color code [here](https://htmlcolorcodes.com/).
 4. ```LabelType```: This HeatMap layer was first created to detect human group. The default value for this parameter is "Person". You can change this to any other labels that Amazon Rekognition support such as cars, trees, etc. It can be used to detect the density of other objects as well.
 
 

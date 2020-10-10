@@ -21,7 +21,7 @@ This demo runs the code using Amazon SageMaker. You can choose any IDE you like 
   b. In the Permissions and encryption section, click the IAM role ARN. This will bring you to the IAM page.    
   c. Click the Attach ploicies button. Find the AmazonRekognitionFullAccess policy and attach it.    
   d. Then go back to the SageMaker console page.     
-3. Download the HeatMap_Code.ipynb file from here and upload it into your Jupyter notebook.
+3. Download the *HeatMap_Code.ipynb* file from here and upload it into your Jupyter notebook.
 4. Open the HeatMap_Code in the Jupyter notebook and change the required parameters (```bucketName``` and ```imageName```) at the beginning.  
 5. Then you can run the code and see a HeatMap layer been added on your picture.  
 

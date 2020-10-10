@@ -1,7 +1,7 @@
 # Create a Heatmap with Amazon Rekognition
 This project adds a heatmap layer on top of a picture based on Amazon Rekognition detect labels function.
 
-Here is an example picture from Amazon Bring-Your-Kids-To-Work Day. We can add a HeatMap layer on top of it and see which game attracks more kids.
+Here is an example picture from Amazon Bring-Your-Kids-To-Work Day. We can add a HeatMap layer on top of it and see which game attracked more people.
 
 <img src="https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kids_day.jpeg" aligh="left" width=48% height="400" />        <img src="https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kid_Day_Result.png" align="right" width=48% height="400"/>
 
@@ -21,7 +21,7 @@ This demo runs the code using Amazon SageMaker. You can choose any IDE you like 
   b. Click the Attach ploicies button. Find the AmazonRekognitionFullAccess policy and attach it.    
   c. Then go back to the SageMaker console page.     
 3. Download the HeatMap_Code.ipynb file from here and upload it into your Jupyter notebook.
-4. Open the HeatMap_Code and change the required parameters (bucketName and imageName) at the beginning.  
+4. Open the HeatMap_Code and change the required parameters (```bucketName``` and ```imageName```) at the beginning.  
 5. Then you can run the code and see a HeatMap layer been added on your picture.  
 
 ## Customize your HeatMap

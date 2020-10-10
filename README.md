@@ -1,6 +1,12 @@
 ## Create a Heatmap with Amazon Rekognition
 This project adds a heatmap layer on top of a picture based on Amazon Rekognition detect labels function.
 
+Here is an example picture from Amazon Bring-Your-Kids-To-Work Day
+![Kids Day](https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kids_day.jpeg)
+
+We can add a HeatMap layer on top of it and see which game attracks more kids.
+![Kids Day Result](https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kid_Day_Result.png)
+
 ## Setup
 # Prerequest
 1. Create an [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html)

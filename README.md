@@ -8,7 +8,7 @@ Here is an example picture from Amazon Bring-Your-Kids-To-Work Day. We can add a
 
 # Setup
 ## Prerequest
-1. Create an [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html)
+1. Create an [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html).   
 2. Upload the picture that you want to add a heatmap layer into the S3 bucket you just created. 
 
 ## Run the demo

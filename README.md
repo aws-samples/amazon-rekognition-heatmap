@@ -32,6 +32,11 @@ You can customize your HeatMap by changing the parameters in the optional sectio
 3. ```DarkestColor```: The HeatMap will provide gradient colors between the darkest color you set and the color white. The default color is Crimson Red (#990000). You can find more color code [here](https://htmlcolorcodes.com/).
 4. ```LabelType```: This HeatMap layer was first created to detect human group. The default value for this parameter is "Person". You can change this to any other labels that Amazon Rekognition support such as cars, trees, etc. It can be used to detect the density of other objects as well.
 
+# Clean Up
+1. Go to Amazon SageMaker console, choose Notebook Instances.  
+2. Select the instance you created for this demo. Click Actions and choose Stop from the drop down list.  
+3. Once the instance status becoming Stopped, select this instance and click the Actions again. Choose Delete from the drop down list to delete this instance.   
+4. Go to Amazon S3 console, delete the bucket you created for this demo.    
 
 # Security
 

@@ -2,8 +2,7 @@
 This project adds a heatmap layer on top of a picture based on Amazon Rekognition detect labels function.
 
 Here is an example picture from Amazon Bring-Your-Kids-To-Work Day. We can add a HeatMap layer on top of it and see which game attracked more people.
-
-<img src="https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kids_day.jpeg" aligh="left" width=48% height="400" />        <img src="https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kid_Day_Result.png" align="right" width=48% height="400"/>
+![Origianal Picture](https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kids_day.jpeg)  ![Add a HeatMap layer](https://github.com/aws-samples/amazon-rekognition-heatmap/blob/main/Kid_Day_Result.png)
 
 
 # Setup
